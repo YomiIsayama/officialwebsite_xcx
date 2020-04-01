@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/map/map",
+    "pages/person/person",
+    "pages/case/case",
+    "pages/lingdao/lingdao",
+    "pages/guang/guang"
+  ],
+  "window": {
+    "navigationBarTitleText": "Title"
+  },
+  "sitemapLocation": "sitemap.json"
+}

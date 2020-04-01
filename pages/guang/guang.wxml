@@ -1,0 +1,11 @@
+<!--pages/guang/guang.wxml-->
+<import src='../template/template.wxml' />
+<view class="page">
+  <template is="header" />
+  <view class="body">
+    <text>
+test
+    </text>
+  </view>
+  <template is="footer" />
+</view>

@@ -1,0 +1,69 @@
+<import src='../template/template.wxml' />
+<view class="page">
+  <!-- 页头- -->
+  <template is='header' />
+  <!-- 设置展示图标 -->
+  <view class="body">
+
+    <view class="left">
+      <view class="l1">
+        <navigator url="../person/person">
+          <image class="pic1" src="../images/1.png" />
+        </navigator>
+      </view>
+      <view class="l2">
+        <text>简介</text>
+      </view>
+      
+      <view class="l3">
+        <navigator url="../map/map">
+          <image class="pic1" src=" ../images/3.png" />
+        </navigator>
+      </view>
+      <view class="l4">
+        <text>地图</text>
+      </view>
+      
+      <view class="l1">
+        <navigator url="../lingdao/lingdao">
+          <image class="pic1" src="../images/5.png" />
+        </navigator>
+      </view>
+      <view class="l2">
+        <text>人物</text>
+      </view>
+     
+    </view>
+    <!-- ========================================== -->
+    <view class=" right">
+      <view class="l1">
+        <navigator url="../case/case">
+          <image class="pic1" src="../images/2.png" />
+        </navigator>
+      </view>
+      <view class="l2">
+        <text>视频</text>
+      </view>
+
+      <view class="l3" bindtap="phone">
+        <image class="pic1" src="../images/4.png" />
+      </view>
+      <view class="l4">
+        <text>联系</text>
+      </view>
+      
+      
+      <view class="l1">
+        <navigator url="../guang/guang">
+          <image class="pic1" src="../images/6.png" />
+        </navigator>
+      </view>
+      <view class="l2">
+        <text>风光</text>
+      </view>
+     
+    </view>
+  </view>
+  <!-- <!-页脚-> -->
+  <template is ='footer'/>
+</view>
